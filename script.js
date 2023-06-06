@@ -15,7 +15,7 @@ function getRandomWord() {
     return words[Math.floor(Math.random() * words.length)];
 }
 console.log(getRandomWord())
-,//?-----------------------------------------------
+//?-----------------------------------------------
 //? 2. adım bilgisayarın seçtiği kelimeyi selected word olarak tanımlayıp rasgele kelime seçen fonksiyona eşitledik. kullanıcı harf girdiğinde bu harfa selected wordün içinde ise bunları yan yana yazdırmak için replace methodu kullandık. Containere display flex özelliği vererek her bir dizi yan yana aldık array  şeklindeki harfleri join ile string yapıp doğru oldukça yerlerine yazdırdık
 function displayWord() { 
     let selectedWord = getRandomWord()   
